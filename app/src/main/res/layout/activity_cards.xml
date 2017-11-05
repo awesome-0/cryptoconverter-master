@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorLayout"
+    tools:context="com.samuel.krypto.cryptoconverter.cards.CardsActivity">
+
+    <include
+        layout="@layout/toolbar"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/swipeRefresh">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cardsRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="PrivateResource"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addCardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/material_button_fab_edge_margin"
+        android:elevation="@dimen/material_elevation_fab_resting"
+        android:src="@drawable/ic_add_white_24dp"
+        app:layout_anchor="@id/cardsRv"
+        android:visibility="invisible"
+        app:layout_anchorGravity="bottom|right|end"
+        tools:ignore="UnusedAttribute"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/loadingIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            app:indicatorColor="@color/colorAccent"
+            app:indicatorName="BallClipRotateIndicator"/>
+
+        <TextView
+            android:id="@+id/infoTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorPrimary"
+            android:visibility="visible"
+            tools:layout_editor_absoluteY="331dp"
+            tools:text="@string/internet_error"/>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+
