@@ -5,10 +5,7 @@ import android.arch.persistence.room.Room
 import com.facebook.stetho.Stetho
 import com.samuel.krypto.cryptoconverter.network.AppDatabase
 
-/**
- * Created by Oluwatimilehin on 12/10/2017.
- * oluwatimilehinadeniran@gmail.com.
- */
+
 class App : Application(){
 
     companion object {

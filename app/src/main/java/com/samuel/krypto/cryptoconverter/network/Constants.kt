@@ -3,10 +3,7 @@ package com.samuel.krypto.cryptoconverter.network
 import android.text.TextUtils
 import com.mynameismidori.currencypicker.ExtendedCurrency
 
-/**
- * Created by Oluwatimilehin on 19/10/2017.
- * oluwatimilehinadeniran@gmail.com.
- */
+
 class Constants{
 
     companion object {

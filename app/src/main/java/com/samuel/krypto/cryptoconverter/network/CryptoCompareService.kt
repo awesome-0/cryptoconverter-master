@@ -10,10 +10,7 @@ import retrofit2.http.Query
 import java.util.concurrent.TimeUnit
 
 
-/**
- * Created by Oluwatimilehin on 12/10/2017.
- * oluwatimilehinadeniran@gmail.com.
- */
+
 interface CryptoCompareService {
     @GET("data/pricemulti?fsyms=BTC,ETH")
     fun getRates(@Query("tsyms") tsyms : String) : Single<ExchangeRate>

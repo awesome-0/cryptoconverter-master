@@ -2,10 +2,7 @@ package com.samuel.krypto.cryptoconverter.cards;
 
 import com.samuel.krypto.cryptoconverter.network.Card
 
-/**
- * Created by Oluwatimilehin on 13/10/2017.
- * oluwatimilehinadeniran@gmail.com.
- */
+
 
 interface cardsContract {
 

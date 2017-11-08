@@ -1,9 +1,6 @@
 package com.samuel.krypto.cryptoconverter.currencyconversion
 
-/**
- * Created by Oluwatimilehin on 03/11/2017.
- * oluwatimilehinadeniran@gmail.com.
- */
+
 interface ConversionContract{
 
     interface View{

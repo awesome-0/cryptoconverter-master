@@ -1,9 +1,5 @@
 package com.samuel.krypto.cryptoconverter.cards
 
-/**
- * Created by Oluwatimilehin on 30/10/2017.
- * oluwatimilehinadeniran@gmail.com.
- */
 interface addCardContract {
     interface View{
         fun cardExistsError()

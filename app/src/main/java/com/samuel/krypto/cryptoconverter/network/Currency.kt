@@ -5,10 +5,7 @@ import android.arch.persistence.room.Ignore
 import android.arch.persistence.room.Index
 import android.arch.persistence.room.PrimaryKey
 
-/**
- * Created by Oluwatimilehin on 12/10/2017.
- * oluwatimilehinadeniran@gmail.com.
- */
+
 @Entity(tableName = "currencies",
         indices = arrayOf(Index(value = *arrayOf("from","to"),
         unique = true)

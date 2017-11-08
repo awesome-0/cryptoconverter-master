@@ -6,10 +6,7 @@ import com.samuel.krypto.cryptoconverter.App
 import com.samuel.krypto.cryptoconverter.BasePresenter
 import com.samuel.krypto.cryptoconverter.network.Card
 
-/**
- * Created by Oluwatimilehin on 30/10/2017.
- * oluwatimilehinadeniran@gmail.com.
- */
+
 class AddCardPresenter : addCardContract.Presenter, BasePresenter(){
     override fun clearDisposables() {
         disposables.clear()

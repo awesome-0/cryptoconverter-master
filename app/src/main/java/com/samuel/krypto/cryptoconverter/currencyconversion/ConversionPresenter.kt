@@ -6,10 +6,7 @@ import java.text.DecimalFormat
 import java.text.NumberFormat
 import java.util.*
 
-/**
- * Created by Oluwatimilehin on 03/11/2017.
- * oluwatimilehinadeniran@gmail.com.
- */
+
 class ConversionPresenter : ConversionContract.Presenter {
     override fun attachView(view: ConversionContract.View, rate: Double) {
         this.view = view

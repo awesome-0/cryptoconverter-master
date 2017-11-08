@@ -7,10 +7,7 @@ import android.arch.persistence.room.Query
 import io.reactivex.Flowable
 import io.reactivex.Single
 
-/**
- * Created by Oluwatimilehin on 12/10/2017.
- * oluwatimilehinadeniran@gmail.com.
- */
+
 
 @Dao
 interface CurrencyDao {

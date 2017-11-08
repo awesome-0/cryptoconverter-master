@@ -10,10 +10,7 @@ import com.samuel.krypto.R
 import com.samuel.krypto.cryptoconverter.network.Card
 import kotlinx.android.synthetic.main.card_item.view.*
 
-/**
- * Created by Oluwatimilehin on 30/10/2017.
- * oluwatimilehinadeniran@gmail.com.
- */
+
 
 class cardsAdapter(var cards: List<Card>) : RecyclerView.Adapter<cardsAdapter
 .ViewHolder>() {

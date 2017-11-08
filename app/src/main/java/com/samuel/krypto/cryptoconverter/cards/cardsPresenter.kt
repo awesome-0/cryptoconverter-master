@@ -13,10 +13,7 @@ import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers
 
 
-/**
- * Created by Oluwatimilehin on 13/10/2017.
- * oluwatimilehinadeniran@gmail.com.
- */
+
 class cardsPresenter : cardsContract.Presenter, BasePresenter() {
 
     override fun attachView(view: cardsContract.View, connected: Boolean) {
